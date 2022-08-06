@@ -1,0 +1,44 @@
+.header_box{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(243,243,243,255);
+    border-radius: 15px;
+    padding: 5px;
+   
+
+}
+.user_data{
+    color:#37474f ;
+}
+
+.left_box{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.avatar>img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* .right_box>button{
+   
+} */
+
+#logout_btn{
+    background-color:#de3d3d ;
+    border: none;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#logout_btn:hover{
+    background-color: coral;
+}
+

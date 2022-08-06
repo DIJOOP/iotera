@@ -1,0 +1,43 @@
+table {
+	border-radius: 10px;
+	border-collapse: collapse;
+	overflow: hidden;
+	width: 100%;
+}
+
+td,
+th {
+	border: 2px solid rgba(55, 71, 79, 255);
+	text-align: center;
+	padding: 8px;
+	font-size: small;
+}
+
+th {
+	background-color: rgba(55, 71, 79, 255);
+	color: #fff;
+}
+
+td > img {
+	width: 50px;
+	height: 45px;
+}
+
+.approve_box {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	row-gap: 8px;
+}
+
+.approve_box > button {
+	padding: 2px;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+.approve_box > button:hover {
+	transform: scale(1.05);
+}

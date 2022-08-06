@@ -1,0 +1,88 @@
+
+.common_main{
+    padding: 15px 10px 15px 10px;
+    margin-top: 10vh;
+    background-color: rgba(255,255,255,255);
+    border-radius: 10px;
+     box-shadow: 5px 10px 30px 10px lightblue;
+    
+}
+.title_box{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+.form_box{
+    padding: 10vh 0vh 10vh 0vh ;
+}
+.title_box>button,
+.form_box>form>div>button{
+    color: rgba(255,255,255,255);
+    background-color: rgba(55,71,79,255);
+    border: none;
+    border-radius: 5px;
+    font-size: small;
+    padding: 3px 5px 3px 5px;
+    cursor: pointer;
+}
+
+
+.title_box>h3{
+  color: rgba(79,77,77,255); 
+  
+}
+
+#delete_btn{
+background-color:  #de3d3d;
+text-align: justify;
+}
+
+
+.form_box>form{
+display: flex;
+flex-direction: column;
+width: 60%;
+row-gap: 20px;
+/* background-color: blue; */
+
+}
+.form_box>form>label>input,
+.form_box>form>label>select,
+.form_box>form>label>textarea{
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    background-color:rgba(216,214,214,255);
+    outline: none;
+    padding: 5px;
+}
+.form_box>form>div{
+    width: 50%;
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.form_box>form>label{
+   display: flex;
+  justify-content: flex-end;
+  gap: 10%;
+  font-size: small;
+} 
+
+
+
+@media screen and (max-width: 864px) {
+    .form_box>form{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 590px) {
+    
+    .common_main{
+        width: fit-content;
+    }
+}
+

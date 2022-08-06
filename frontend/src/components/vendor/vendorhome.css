@@ -1,0 +1,79 @@
+.userdata_box {
+	display: flex;
+	background-color: rgba(243, 243, 243, 255);
+	padding: 2vw 0vw 2vw 0vw;
+}
+
+.icon_box {
+	width: 15vw;
+    min-width: 85px;
+}
+.icon_box > img {
+	width: 80px;
+	height: 80px;
+}
+
+.user_profile {
+	display: flex;
+	gap: 10vw;
+	font-size: small;
+}
+
+.user_profile > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.alldetail_container{
+    display: flex;
+
+}
+.addproduct_box{
+    width: 70%;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.myproduct_box{
+    width: 30%;
+    height: 100vh;
+    background-color:rgba(243, 243, 243, 255) ;
+
+}
+
+.common_Main2{
+    
+    margin: 8px;
+    background-color: rgba(255,255,255,255);
+    border-radius: 10px;
+     box-shadow: 5px 10px 30px 10px lightblue;
+    
+}
+
+
+.css-qivjh0-MuiStepLabel-label.MuiStepLabel-alternativeLabel{
+    margin-top: 0 !important;
+}
+
+
+@media screen and (max-width: 864px) {
+
+    .addproduct_box{
+        width: 50%;
+    }
+    .myproduct_box{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 525px) {
+    .alldetail_container{
+        flex-direction: column;
+    }
+    .addproduct_box{
+        width: 100%;
+    }
+    .myproduct_box{
+        width: 100%;
+    }
+}
